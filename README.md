@@ -49,6 +49,8 @@ No database system was used, the pitch deck files are stored in the `public/imag
 subdirectory name.
 
 
+![img.png](img.png)
+
 
 ## TODO list
 - Dockerize the project
