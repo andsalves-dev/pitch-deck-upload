@@ -1,0 +1,10 @@
+/vendor
+/.idea
+/frontend/node_modules
+/frontend/dist
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+/public/images
+!/public/images/.gitignore

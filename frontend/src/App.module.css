@@ -1,0 +1,8 @@
+.app {
+  box-sizing: border-box;
+  margin: 3rem auto;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 58rem;
+}

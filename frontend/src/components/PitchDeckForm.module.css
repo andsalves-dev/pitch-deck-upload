@@ -1,0 +1,21 @@
+.form {
+  border-radius: 0.5rem;
+  border: 1px #EEE solid;
+}
+
+.formControl {
+  margin-bottom: 1rem;
+  max-width: 30rem;
+}
+
+.label {
+  margin-bottom: 0.125rem;
+}
+
+.inputFile {
+  padding-top: 0.25rem;
+}
+
+.heading {
+  font-size: 2rem;
+}

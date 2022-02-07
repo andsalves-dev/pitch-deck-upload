@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list img {
+  max-width: 100%;
+}
+
+.list li {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+}
