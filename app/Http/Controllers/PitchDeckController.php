@@ -26,7 +26,7 @@ class PitchDeckController extends Controller {
         $images = [];
         $success = $this->converterService->convertPdfToImages($file, $this->getDestDir($pitchIdentifier), $images);
 
-        return response()->json(compact('success', 'images'));
+        return response()->json(compact('success', 'images'))->setStatusCode($success ? 200 : 500);
     }
 
     private function getDestDir(string $identifier): string {

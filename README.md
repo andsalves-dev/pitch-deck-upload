@@ -5,7 +5,7 @@ Base tech stack: `PHP`+`Lumen`; `Typescript`+`React`+`Chakra UI`.
 ## Get started
 
 ### Pre requisites
-You'll need to have installed in your machine: `PHP 7.4+`, `composer 2.2+` and `Yarn 1.22+`.
+You'll need to have installed in your machine: `PHP 7.4+`, `composer 2.2+`, `GPL Ghostscript 9.50+ (gs)` and `Yarn 1.22+`.
 
 ### Running the project
 To spin up the project, you'll need to run the backend and frontend separately.
@@ -25,6 +25,10 @@ and that's it. Your API should be up and running at http://localhost:8000.
 #### Frontend
 
 In another terminal tab, run:
+
+`cd frontend`
+
+and
 
 `yarn install`
 

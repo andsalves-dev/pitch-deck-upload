@@ -12,7 +12,7 @@ class PDFLibConverterService implements PdfConverterServiceInterface {
         try {
             $pdfLib = $this->createPdfLibInstance($pdfFile, $destDir);
             $images = $pdfLib->convert();
-            return true;
+            return count($images) > 0;
         } catch (\Exception $e) {
             info('Error loading PDF file: ' . $e->getMessage());
             info('Trace: ' . $e->getTraceAsString());
