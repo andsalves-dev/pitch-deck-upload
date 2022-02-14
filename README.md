@@ -1,6 +1,7 @@
 # Simple Pitch Deck Upload Application
 
 Base tech stack: `PHP`+`Lumen`; `Typescript`+`React`+`Chakra UI`.
+
 Under the hood, the Ghostscript program is also used by the pdf-box PHP module to convert PDF into images. Make sure it is installed on your computer by running `gs -v`.
 
 ## Get started
